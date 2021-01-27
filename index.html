@@ -1,79 +1,266 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="header">
-        <div class="header-left">
-            <img src="img/logo.svg" alt="logo" class="logo">
-            <img src="img/search.svg" alt="search" class="search">
+    <header class="page-header">
+        <div class="page-header-logo">
+            <a href="#" class="logo"><img src="img/logo.svg" alt="logo" class="logo-header" height="38"></a>
+            <a href="#" class="header-search"><img src="img/search.svg" alt="search" class="search" height="26"></a>
         </div>
 
-        <img src="img/menu.svg" alt="menu" class="menu">
-        <img src="img/person.svg" alt="person" class="person">
-        <img src="img/buy.svg" alt="" class="buy">
 
-    </div>
+        <nav class="page-header-menu">
+            <input type="checkbox" id="mobile-menu" />
+            <label for="mobile-menu" id="mobile-menu-btn" class="menu-btn"></label>
+
+            <div class="aside-menu">
+                <a href="#" class="exit-img"><img src="img/exit.svg" alt="exit" height="12"></a>
+                <span class="heading-menu">menu</span>
+                <span class="menu-title">man</span>
+                <ul class="list-menu">
+                    <li class="menu-item"><a class="menu-item-text" href="#">Acessories</a></li>
+                    <li class="menu-item"><a class="menu-item-text" href="#">Bags</a></li>
+                    <li class="menu-item"><a class="menu-item-text" href="#">Denim</a></li>
+                    <li class="menu-item"><a class="menu-item-text" href="#">T-Shirts</a></li>
+                </ul>
+                <span class="menu-title">woman</span>
+                <ul class="list-menu">
+                    <li class="menu-item"><a class="menu-item-text" href="#">Acessories</a></li>
+                    <li class="menu-item"><a class="menu-item-text" href="#">Jackets &AMP; Coats</a></li>
+                    <li class="menu-item"><a class="menu-item-text" href="#">Polos</a></li>
+                    <li class="menu-item"><a class="menu-item-text" href="#">T-Shirts</a></li>
+                    <li class="menu-item"><a class="menu-item-text" href="#">Shirts</a></li>
+                </ul>
+                <span class="menu-title">kids</span>
+                <ul class="list-menu">
+                    <li class="menu-item"><a class="menu-item-text" href="#">Acessories</a></li>
+                    <li class="menu-item"><a class="menu-item-text" href="#">Jackets &AMP; Coats</a></li>
+                    <li class="menu-item"><a class="menu-item-text" href="#">Polos</a></li>
+                    <li class="menu-item"><a class="menu-item-text" href="#">T-Shirts</a></li>
+                    <li class="menu-item"><a class="menu-item-text" href="#">Shirts</a></li>
+                    <li class="menu-item"><a class="menu-item-text" href="#">Bags</a></li>
+                </ul>
+            </div>
 
 
-    <div class="top">
+            <button class="btn-person"></button>
+            <a href="#" class="basket-header"></a>
 
-        <img src="img/man.png" alt="man" class="man">
+        </nav>
+    </header>
 
-        <div class="top-right">
-            <div class="top-box">
-                <div class="box-text"></div>
-                <h1 class="top-heading">THE BRAND</h1>
-                <h2 class="text-top">OF LUXERIOUS <span class="texttop">FASHION</span></h2>
+    <section class="page-header-banner">
+
+
+
+
+        <div class="top">
+
+
+            <div class="header-top-content">
+
+                <div class="top-box">
+                    <span class="top-heading">THE BRAND</h1>
+                        <span class="text-top">OF LUXERIOUS <span class="texttop">FASHION</span></h2>
+                </div>
             </div>
         </div>
-    </div>
+        </div>
+
+
+
+
+
+    </section>
+
+
+    <section class="content">
+        <div class="content-top">
+            <div class="card-one">
+                <div class="card-background">
+                    <div class="card-text">
+                        <p class="text-card-top">30% OFF</p>
+                        <p class="text-card-bot">FOR WOMEN</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-two">
+                <div class="card-background">
+                    <div class="card-text">
+                        <p class="text-card-top">HOT DEAL</p>
+                        <p class="text-card-bot">FOR MEN</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-background">
+                    <div class="card-text">
+                        <p class="text-card-top">NEW ARRIVALS</p>
+                        <p class="text-card-bot">FOR KIDS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-bot">
+            <div class="card-bot">
+                <div class="card-background-bot">
+                    <div class="card-text-bot">
+                        <p class="text-card-top">LUXIROUS & TRENDY</p>
+                        <p class="text-card-bot">ACCESORIES</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-section">
+        <span class="heading-product">Fetured Items</span>
+        <span class="text-heading-product">Shop for items based on what we featured in this week</span>
+        <div class="product-cards">
+            <div class="product">
+                <div class="basket-product">
+                    <div class="display-basket-product">
+                        <a href="#" class="basket">Add to Cart</a>
+                    </div>
+                </div>
+                <span class="product-text-heading">ELLERY X M'O CAPSULE </span>
+                <span class="product-text">Known for her sculptural takes on traditional tailoring, Australian
+                    arbiter of cool Kym Ellery
+                    teams up with Moda Operandi.</span>
+                <span class="product-text-bottom">$52.00</span>
+            </div>
+            <div class="product">
+                <div class="basket-product2">
+                    <div class="display-basket-product">
+                        <a href="#" class="basket">Add to Cart</a>
+                    </div>
+                </div>
+                <span class="product-text-heading">ELLERY X M'O CAPSULE</span>
+                <span class="product-text">Known for her sculptural takes on traditional tailoring, Australian
+                    arbiter
+                    of cool Kym Ellery teams up with Moda Operandi.</span>
+                <span class="product-text-bottom">$52.00</span>
+            </div>
+            <div class="product product-last">
+                <div class="basket-product3">
+                    <div class="display-basket-product">
+                        <a href="#" class="basket">Add to Cart</a>
+                    </div>
+                </div>
+                <span class="product-text-heading">ELLERY X M'O CAPSULE</span>
+                <span class="product-text">Known for her sculptural takes on traditional tailoring, Australian
+                    arbiter
+                    of cool Kym Ellery teams up with Moda Operandi.</span>
+                <span class="product-text-bottom">$52.00</span>
+            </div>
+            <div class="product">
+                <div class="basket-product4">
+                    <div class="display-basket-product">
+                        <a href="#" class="basket">Add to Cart</a>
+                    </div>
+                </div>
+                <span class="product-text-heading">ELLERY X M'O CAPSULE</span>
+                <span class="product-text">Known for her sculptural takes on traditional tailoring, Australian
+                    arbiter
+                    of cool Kym Ellery teams up with Moda Operandi.</span>
+                <span class="product-text-bottom">$52.00</span>
+            </div>
+            <div class="product">
+                <div class="basket-product5">
+                    <div class="display-basket-product">
+                        <a href="#" class="basket">Add to Cart</a>
+                    </div>
+                </div>
+                <span class="product-text-heading">ELLERY X M'O CAPSULE</span>
+                <span class="product-text">Known for her sculptural takes on traditional tailoring, Australian
+                    arbiter
+                    of cool Kym Ellery teams up with Moda Operandi.</span>
+                <span class="product-text-bottom">$52.00</span>
+            </div>
+            <div class="product product-last">
+                <div class="basket-product6">
+                    <div class="display-basket-product">
+                        <a href="#" class="basket">Add to Cart</a>
+                    </div>
+                </div>
+                <span class="product-text-heading">ELLERY X M'O CAPSULE</span>
+                <span class="product-text">Known for her sculptural takes on traditional tailoring, Australian
+                    arbiter
+                    of cool Kym Ellery teams up with Moda Operandi.</span>
+                <span class="product-text-bottom">$52.00</span>
+            </div>
+            <a href="#" class="btn-product">Browse All Product</a>
+        </div>
+
+
+
+    </section>
+
+
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-top-card">
+                <img src="img/footer-img1.svg" alt="footer-img" class="footer-top-img">
+                <span class="footer-top-heading">Free Delivery</span>
+                <span class="footer-top-text">Worldwide delivery on all. Authorit tively morph next-generation innov
+                    tion with extensive models.</span>
+            </div>
+            <div class="footer-top-card">
+                <img src="img/footer-img2.svg" alt="footer-img2" class="footer-cntr-img">
+                <span class="footer-top-heading">Sales & discounts</span>
+                <span class="footer-top-text">Worldwide delivery on all. Authorit tively morph next-generation innov
+                    tion with extensive models.</span>
+            </div>
+            <div class="footer-top-card">
+                <img src="img/footer-img3.svg" alt="footer-img3" class="footer-topcntr-img">
+                <span class="footer-top-heading">Quality assurance</span>
+                <span class="footer-top-text">Worldwide delivery on all. Authorit tively morph next-generation innov
+                    tion with extensive models.</span>
+            </div>
+        </div>
+
+
+        <div class="footer-cntr-bcg">
+            <div class="footer-cntr">
+                <div class="msg-footer">
+                    <img src="img/msg-img.png" alt="msg-img" class="msg-img">
+                    <span class="msg-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+                        condimentum“</span>
+                </div>
+
+
+                <div class="fdback-footer">
+                    <span class="heading-fdback-footer">subscribe</span>
+                    <span class="txt-fdback-footer">for our newletter and promotion</span>
+                    <form action="#" class="subscribing-form">
+                        <input class="subscribing-form-email" type="email" placeholder="Enter Your Email" required>
+                        <input class="subscribing-form-btn" type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copy">
+            <span class="txt-copy">&copy; 2021 Brand All Rights Reserved</span>
+            <div class="footer-social">
+                <a href="#" class="facebook"><img src="img/facebook.svg" alt="facebook" class="social-icons"></a>
+                <a href="#" class="instagram"><img src="img/instagram.svg" alt="instagram" class="social-icons"></a>
+                <a href="#" class="print"><img src="img/print.svg" alt="print" class="social-icons"></a>
+                <a href="#" class="twitter"> <img src="img/twitter.svg" alt="twitter" class="social-icons"></a>
+            </div>
+        </div>
+    </footer>
+
 </body>
-<div class="content">
-    <div class="content-top">
-        <div class="card-one">
-            <div class="card-background">
-                <div class="card-text">
-                    <p class="text-card-top">30% OFF</p>
-                    <p class="text-card-bot">FOR WOMEN</p>
-                </div>
-            </div>
-        </div>
-        <div class="card-two">
-            <div class="card-background">
-                <div class="card-text">
-                    <p class="text-card-top">HOT DEAL</p>
-                    <p class="text-card-bot">FOR MEN</p>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-background">
-                <div class="card-text">
-                    <p class="text-card-top">NEW ARRIVALS</p>
-                    <p class="text-card-bot">FOR KIDS</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="content-bot">
-        <div class="card-bot">
-            <div class="card-background-bot">
-                <div class="card-text-bot">
-                    <p class="text-card-top">LUXIROUS & TRENDY</p>
-                    <p class="text-card-bot">ACCESORIES</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 </html>
