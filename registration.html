@@ -49,15 +49,19 @@
         <section class="registration">
             <form action="#" class="registration-form">
                 <p class="form-registration-txt">Your name</p>
-                <input class="form-input" type="text" placeholder="First Name" required>
-                <input class="form-input" type="text" placeholder="Last name" required>
-                <input class="form-registration-radio" type="radio" value="male"> <span
-                    class="form-registration-style">Male</span>
-                <input class="form-registration-radio" type="radio" value="female"> <span
-                    class="form-registration-style">Female</span>
+                <fieldset class="form-name"><input class="form-input" type="text" placeholder="First Name" required>
+                    <input class="form-input" type="text" placeholder="Last name" required>
+                </fieldset>
+                <fieldset class="form-male"> <input name="male-female" class="form-registration-radio" type="radio"
+                        value="male"> <span class="form-registration-style">Male</span>
+                    <input name="male-female" class="form-registration-radio" type="radio" value="female"> <span
+                        class="form-registration-style">Female</span>
+                </fieldset>
                 <p class="form-registration-txt form-login-info">Login details</p>
-                <input class="form-input" type="email" placeholder="Email" required>
-                <input class="form-input" type="password" placeholder="Password" required>
+                <fieldset class="form-login">
+                    <input class="form-input" type="email" placeholder="Email" required>
+                    <input class="form-input" type="password" placeholder="Password" required>
+                </fieldset>
                 <p class="form-txt-reminder">Please use 8 or more characters, with at least 1 number and a mixture of
                     uppercase and lowercase letters</p>
                 <button class="form-reg-btn">join now
