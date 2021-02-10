@@ -1,0 +1,101 @@
+@media (max-width: 768px) {
+    .page-header {
+        max-width: 768px;
+        display: flex;
+        justify-content: space-between;
+        &-logo {
+            margin: 18px 0 18px 32px;
+        }
+    }
+    .header-nav {
+        margin: 19px 32px 18px 0;
+    }
+    .basket-menu {
+        margin: 0 0 0 0;
+    }
+    .logo {
+        margin: 18px 0 18px 0;
+    }
+    .header-search {
+        margin-left: 41px;
+    }
+    .banner-top {
+        max-width: 768px;
+        height: 367px;
+        background-size: 50%;
+    }
+    .text-banner {
+        margin: 138px 33px 0 0;
+    }
+    .top-heading {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 53px;
+        color: #222222;
+    }
+    .txt-top {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        color: #222222;
+    }
+    .categories {
+        padding: 20px 0 154px;
+        width: 736px;
+        &-item:nth-child(1) {
+            width: 232px;
+            margin: 0 18px 0 0;
+        }
+        &-item:nth-child(2) {
+            width: 232px;
+            margin: 0 18px 0 0;
+        }
+        &-item:nth-child(3) {
+            width: 232px;
+        }
+    }
+    .products {
+        max-width: 768px;
+        .products-card {
+            padding: 72px 0 32px;
+        }
+        .product-item {
+            margin: 16px;
+        }
+        .product-item:nth-child(2n + 2) {
+            margin: 16px 16px 16px 0;
+        }
+    }
+    .features {
+        flex-direction: column;
+        padding: 0 204px 64px;
+        &-item {
+            margin: 48px 0 0 0;
+        }
+        &-item:nth-child(3) {
+            margin: 48px 0 0 0;
+        }
+    }
+    .subscribe {
+        padding: 64px 0 140px;
+        background-image: linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)), url(../img/tablet.png);
+        background-position: inherit;
+        flex-direction: column;
+        align-items: center;
+        background-size: 120%;
+        .subscribe-info {
+            margin: 0;
+        }
+        .subscribing {
+            display: flex;
+            flex-direction: column;
+            .subscribing-form {
+                margin: 0 auto;
+            }
+        }
+    }
+    .page-footer {
+        padding: 0 32px;
+    }
+}
