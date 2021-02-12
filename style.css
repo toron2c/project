@@ -171,6 +171,7 @@
 /* section-banner-top */
 
 .banner-top {
+    min-width: 1600px;
     height: 764px;
     background: url(../img/man.png), #f1e4e6;
     background-repeat: no-repeat;
@@ -227,11 +228,9 @@
     margin: 0 auto;
     padding: 65px 0 96px 0;
     width: 1140px;
-}
-
-.categories-items {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .categories-item:nth-child(1) {
@@ -261,7 +260,7 @@
     background-position: center;
 }
 
-#item-last {
+.categories-item:nth-child(4) {
     width: 1140px;
     height: 180px;
     background-image: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(../img/card4.png);
@@ -269,16 +268,7 @@
     background-position: center;
 }
 
-#item-last .text-item {
-    padding: 65px 0 0 0;
-    text-transform: uppercase;
-    font-size: 16px;
-    line-height: 19px;
-    color: #ffffff;
-    text-align: center;
-}
-
-.categories-items .text-item {
+.text-item {
     margin: 105px 0 0 0;
     text-transform: uppercase;
     font-size: 16px;
@@ -296,6 +286,14 @@
     line-height: 29px;
     text-align: center;
     color: #f16d7f;
+}
+
+.categories-item:nth-child(4) .text-item {
+    margin: 65px 0 0 0;
+}
+
+.categories-item:nth-child(4) .color-text-item {
+    margin: 0 0 65px 0;
 }
 
 /* section categories end */
@@ -724,7 +722,8 @@
 .title-menu-icon {
     position: relative;
     z-index: 3;
-    margin: 0 0 0 11px;
+    display: block;
+    margin: 55px 0 0 0;
 }
 
 .sidebar-products-hiden {
@@ -797,7 +796,7 @@
     display: block;
 }
 
-.title-menu:active {
+.title-menu:hover {
     color: #ef5b70;
 }
 
@@ -899,8 +898,7 @@
 /* section products "number page */
 
 .number-page {
-    width: 210px;
-    margin: 48px auto 96px;
+    margin: 0 auto;
     display: flex;
     list-style-type: none;
     border: 1px solid #ebebeb;
@@ -1003,8 +1001,8 @@
     background: #ef5b70;
     width: 63px;
     height: 3px;
-    top: 175%;
-    left: 47%;
+    top: 30px;
+    left: 540px;
 }
 
 .info-product-heading {
@@ -1035,16 +1033,16 @@
     line-height: 29px;
     color: #ef5b70;
     text-align: center;
-    position: relative;
-    &::after {
-        content: "";
-        position: absolute;
-        width: 642px;
-        height: 1px;
-        background-color: #eaeaea;
-        top: 170%;
-        left: 22%;
-    }
+}
+
+.line-info-product {
+    display: block;
+    margin: 0 auto;
+    background-color: #eaeaea;
+    border: 0px none;
+    height: 1px;
+    width: 641px;
+    align-items: center;
 }
 
 .product-option {
@@ -1399,5 +1397,3 @@
 fieldset {
     border: none;
 }
-@import "tablet";
-@import "mobile";
