@@ -853,6 +853,10 @@
   color: #6f6e6e;
 }
 
+.category-item:last-child {
+  margin-left: 30px;
+}
+
 .category-item {
   position: relative;
 }
@@ -884,13 +888,21 @@
   content: "";
   position: absolute;
   top: 3px;
-  left: 35px;
+  left: 37px;
   border: solid #6f6e6e;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 3px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+}
+
+#switch {
+  display: none;
+}
+
+#switch:checked ~ .option-category-item {
+  visibility: visible;
 }
 
 .category-item:nth-child(3)::after {
@@ -935,10 +947,6 @@
   font-size: 14px;
   line-height: 16px;
   color: #6f6e6e;
-}
-
-.category-size:active + .option-category-item {
-  visibility: visible;
 }
 
 /* section products "number page */
