@@ -25,7 +25,6 @@
   font-family: lato;
 }
 
-/* header */
 .page-header {
   background: #222222;
   display: -webkit-box;
@@ -172,8 +171,6 @@
           filter: brightness(50%);
 }
 
-/* header-end */
-/* section-banner-top */
 .banner-top {
   height: 764px;
   background: url(../img/man.png), #f1e4e6;
@@ -228,8 +225,6 @@
   color: #f16d7f;
 }
 
-/* section-banner-top end */
-/* section categories */
 .categories {
   margin: 0 auto;
   padding: 65px 0 96px 0;
@@ -313,8 +308,6 @@
   color: #f16d7f;
 }
 
-/* section categories end */
-/* section products */
 .products {
   width: 1140px;
   margin: 0 auto;
@@ -451,8 +444,6 @@
   color: #ffffff;
 }
 
-/* section product end */
-/* section features */
 .features {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -507,8 +498,6 @@
   margin: 25px 0 16px 0;
 }
 
-/* features-end */
-/* section subscribe */
 .subscribe {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -615,8 +604,6 @@
   color: #f16d7f;
 }
 
-/* section subscribe end */
-/* section page-footer */
 .page-footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -673,9 +660,6 @@
   background: #f16d7f;
 }
 
-/* section page-footer  end */
-/* CATALOG */
-/* section title-catalog */
 .title-catalog {
   background: #f8f3f4;
   display: -webkit-box;
@@ -728,8 +712,6 @@
   left: 33px;
 }
 
-/* section title-catalog end */
-/* CATALOG section product "product-nav" */
 .products-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -949,7 +931,6 @@
   color: #6f6e6e;
 }
 
-/* section products "number page */
 .number-page {
   width: 210px;
   margin: 48px auto 96px;
@@ -1012,8 +993,6 @@
   left: 30px;
 }
 
-/* CATATLOG end */
-/* Product page *section info product */
 .info-product {
   padding: 0 0 129px 0;
 }
@@ -1159,9 +1138,6 @@
   fill: white;
 }
 
-/* Product page end */
-/* Cart page */
-/* section basket */
 .basket {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1362,9 +1338,6 @@
   text-transform: uppercase;
 }
 
-/* Cart page END */
-/* Registration page */
-/* section registration */
 .registration {
   display: -webkit-box;
   display: -ms-flexbox;

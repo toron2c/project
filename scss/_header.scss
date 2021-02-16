@@ -1,0 +1,138 @@
+.page-header {
+    background: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-header-logo {
+    display: flex;
+}
+
+.logo {
+    display: block;
+    width: 44px;
+    height: 38px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 18px 41px 19px 231px;
+}
+
+.header-search {
+    margin: 28px 0 20px 0;
+}
+
+.menu {
+    margin: 30px 33px 22px 0;
+}
+
+.person {
+    margin: 26px 33px 20px 0;
+}
+
+.basket-menu {
+    position: relative;
+    margin: 26px 240px 20px 0;
+}
+
+.menu-btn {
+    width: 32px;
+    height: 23px;
+    margin: 30px 33px 22px 0;
+    cursor: pointer;
+}
+
+.btn-header {
+    background-color: transparent;
+    border: none;
+}
+
+.nav-svg {
+    fill: #e8e8e8;
+}
+
+.basket-menu::after {
+    content: "5";
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    top: -7px;
+    left: 20px;
+    padding-top: 3px;
+    background: #f16d7f;
+    border-radius: 50%;
+}
+
+.sidebar {
+    background: #ffffff;
+    position: absolute;
+    top: 79px;
+    right: 0;
+    width: 239px;
+    height: 767px;
+    display: none;
+    z-index: 900;
+}
+
+.heading-menu {
+    display: block;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 37px 0 20px 34px;
+}
+
+.menu-title {
+    margin: 20px 0 12px 33px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #f16d7f;
+    text-transform: uppercase;
+}
+
+.menu-item {
+    list-style-type: none;
+    margin: 11px 0 11px 54px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6f6e6e;
+}
+
+.menu-item a:hover {
+    text-decoration: underline;
+    color: #f16d7f;
+}
+
+.exit-img {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    fill: #6f6e6e;
+}
+
+.exit-img:hover {
+    fill: #f16d7f;
+}
+
+#mobile-menu {
+    display: none;
+}
+
+#mobile-menu:checked ~ .sidebar {
+    display: block;
+}
+
+.banner-top:hover {
+    filter: brightness(50%);
+}

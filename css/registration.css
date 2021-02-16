@@ -1,0 +1,106 @@
+.registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 64px 230px 96px;
+}
+
+.registration-form input {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #b1b1b1;
+  /* margin: 0 0 21px 0; */
+}
+
+.registration-form input:last-child {
+  margin: 0 0 15px 0;
+}
+
+.form-registration-txt {
+  margin: 0 0 20px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+
+.form-registration-style {
+  margin: 33px 20px 35px 0;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.form-login-info {
+  margin: 35px 0 20px 0;
+}
+
+.form-txt-reminder {
+  margin: -10px 0 39px 0;
+  width: 359px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #b1b1b1;
+}
+
+.form-reg-btn {
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  background: #f16d7f;
+  border: none;
+  padding: 16px 29px 17px 29px;
+  text-transform: uppercase;
+}
+
+.registration-txt-box {
+  padding: 0 0 0 128px;
+}
+
+.heading-txt-box {
+  display: block;
+  margin: 0 0 22px 0;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.txt-box-reg {
+  margin: 0 0 21px 0;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.list-registration-item {
+  list-style-type: none;
+  margin: 0 0 16px 24px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  position: relative;
+}
+
+.list-registration-item::before {
+  content: "";
+  top: 8px;
+  left: -35px;
+  position: absolute;
+  width: 20px;
+  height: 16px;
+  background-image: url(../img/new-list-style.svg);
+  background-repeat: no-repeat;
+}
+
+fieldset {
+  border: none;
+}

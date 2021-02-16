@@ -1,0 +1,132 @@
+.products {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 0 95px 0;
+}
+
+.product-img {
+    position: relative;
+    z-index: 0;
+}
+
+.heading-products {
+    display: block;
+    margin: 0 0 6px 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+
+.text-products {
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9f9f9f;
+}
+
+.products-card {
+    padding: 57px 0 48px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 360px;
+    background: #f8f8f8;
+    margin: 0 30px 30px 0;
+    position: relative;
+}
+
+.product-item:nth-child(3n + 3) {
+    margin: 0 0 30px 0;
+}
+
+.product-item-heading {
+    display: block;
+    margin: 25px 0 12px 18px;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.product-item-text {
+    margin: 0 28px 18px 16px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5d5d5d;
+}
+
+.product-price {
+    display: block;
+    margin: 0 289px 20px 18px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f16d7f;
+}
+
+.product-btn-item {
+    position: absolute;
+    top: 188px;
+    left: 111px;
+    padding: 14px 16px 13px 51px;
+    background: transparent;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    z-index: 1;
+    border-width: 0;
+    display: none;
+}
+
+.text-btn-basket {
+    margin: 13px 15px 12px 0;
+}
+
+.product-btn-item::before {
+    content: "";
+    position: absolute;
+    top: -189px;
+    left: -111px;
+    background: rgba(58, 56, 56, 0.86);
+    width: 360px;
+    height: 420px;
+    z-index: -1;
+}
+
+.product-btn-item::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 138px;
+    height: 43px;
+    background-image: url(../img/basket.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 13px;
+    border: 1px solid #ffffff;
+}
+
+.product-item:hover .product-btn-item {
+    display: block;
+}
+
+.product-btn {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f26376;
+    padding: 14px 38px 13px;
+    border: 1px solid #ff6a6a;
+    background: transparent;
+}
+
+.product-btn:hover {
+    background: #f16d7f;
+    color: #ffffff;
+}

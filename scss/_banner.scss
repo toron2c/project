@@ -1,0 +1,48 @@
+.banner-top {
+    height: 764px;
+    background: url(../img/man.png), #f1e4e6;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.text-banner {
+    margin: 290px 331px 381px 0;
+    position: relative;
+}
+
+.text-banner::before {
+    content: "";
+    width: 12px;
+    height: 92px;
+    background: #f16d7f;
+    position: absolute;
+    left: -18px;
+}
+
+.top-heading {
+    display: block;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+
+.txt-top {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+
+.txt-top-color {
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 38px;
+    color: #f16d7f;
+}
